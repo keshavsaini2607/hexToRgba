@@ -1,6 +1,6 @@
 {
-    "name": "Demo extension",
-    "description": "Demo jokes extension",
+    "name": "Hex To RGBA",
+    "description": "Convert hex color code to rgba in just a click",
     "version": "1.0",
     "manifest_version": 3,
     "action": {
