@@ -1,0 +1,63 @@
+body {
+   min-width: 100px;
+   width: 300px;
+   background: rgb(219, 219, 219);
+   padding: 0.2rem;
+}
+
+header {
+   padding: 0.5rem;
+   display: grid;
+   place-items: center;
+   background: linear-gradient(
+         0deg,
+         rgba(0, 0, 0, 0.8),
+         rgba(0, 0, 0, 0.8)
+      ),
+      url("/assets/colors.jpeg");
+   background-size: cover;
+}
+
+header > h2 {
+   color: white;
+}
+
+section {
+   background: rgb(212, 212, 212);
+   padding: 0.5rem;
+   margin-top: 0.4rem;
+}
+
+section > input {
+   width: 95%;
+   padding: 0.5rem 0.5rem;
+   border: 1px solid darkgray;
+   outline: none;
+   border-radius: 3px;
+}
+
+section > div {
+   background: darkgray;
+   width: 95%;
+   padding: 0.5rem 0.5rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+section > div > #copy {
+   cursor: pointer;
+   font-weight: bolder;
+}
+
+button {
+   float: right;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   background: rgb(105, 158, 105);
+   padding: 0.5rem 1rem;
+   cursor: pointer;
+   border: none;
+   outline: none;
+   color: white;
+}
